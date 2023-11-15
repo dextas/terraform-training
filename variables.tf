@@ -15,10 +15,9 @@ variable "prefix" {
 }
 
 variable "environment" {
-  type = string
+  type        = string
   description = "(Optional) cEnvironment of all resources"
-  default = "developement"
-  
+  default     = "developement"
 }
 
 variable "cidr_block" {
@@ -35,4 +34,3 @@ variable "public_subnets" {
     public-2 = "10.42.11.0/24"
   }
 }
-
